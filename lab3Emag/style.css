@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContent ul li div {
+    display: block;
+    height: 10px;
+    width: 75px;
+}
+
+#emptyBlock {
+    display: block;
+    height: 10px;
+    width: 402px;
+}
+
+#topRightButtons {
+    padding: 20px;
+}
+
+#topRightButtons input {
+    height: 31px;
+    padding-top: 8px;
+    margin-left: 20px;
+}
+
+.header {
+    background-color: #005eb8;
+    margin: 0px;
+    height: 85px;
+}
+
+.logo {
+    position: absolute;
+    left: 75px;
+    top: 25px;
+}
+
+.inputArea {
+    float: left;
+    background: #FFFFFF;
+    width: 530px;
+    border: none;
+
+}
+
+.searchButton {
+    float: left;
+    height: 20px;
+    display: flex;
+    border: none;
+    color: #fff;
+}
+
+.searchForm {
+    width: 550px;
+    padding: 12px;
+    height: 12px;
+    margin-top: 25px;
+    margin-left: 230px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+    float: left;
+    display: flex;
+    margin-right: 24px;
+}
+
+.mainContent ul li input {
+    height: 40px;
+}
+
+.mainContent {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    height: 40px;
+
+    background: #0000;
+    position: relative;
+}
+
+.mainContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.mainContent ul li {
+    margin-left: 0;
+    display: block;
+    float: left;
+}
+
+.mainContent ul li a {
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 100;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.43;
+    color: #222;
+}
+
+#casca {
+    margin-right: 0;
+}
+
+.container {
+    background-color: gainsboro;
+    margin: 0;
+    height: 1500px;
+    width: 2000px;
+}
+
+.container table tbody {
+    margin-top: 0;
+}
+
+#principalPhoto {
+    margin: 0;
+    height: 473px;
+    width: 970px;
+}
+
+table {
+    margin-left: 72px;
+}
+
+td {
+    margin-top: 0;
+}
+
+.vertical-menu {
+    margin: 0;
+    width: 228px;
+    background: white;
+    height: 480px;
+}
+
+.vertical-menu a {
+    background-color: white;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    float: right;
+    color: #222;
+    display: block;
+    padding: 10px;
+    height: 10px;
+    text-decoration: none;
+}
+
+.icon {
+    position: relative;
+    top: 5px;
+    left: 2px;
+}
+
+
+.mainContent ul li b {
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 100;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.43;
+    color: #222;
+}
