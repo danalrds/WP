@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+    <style>
+        td {
+            border: black solid 1px
+        }
+    </style>
+</head>
+<body>
+<h1>Learning</h1>
+<table style=" border: black solid 2px">
+    <tr class="type1">
+        <td>
+            <button type="button" onclick="removeRow('.type1')">Button 1</button>
+        </td>
+        <td> Row 1 Column 1</td>
+        <td> Row 1 Column 2</td>
+        <td> Row 1 Column 3</td>
+        <td> Row 1 Column 4</td>
+        <td> Row 1 Column 5</td>
+        <td>
+            <button type="button" class="addButton1" onclick="addRow('type1')">Button 1</button>
+        </td>
+    </tr>
+    <tr class="type2">
+        <td>
+            <button type="button" onclick="removeRow('.type2')">Button 2</button>
+        </td>
+        <td> Row 2 Column 1</td>
+        <td> Row 2 Column 2</td>
+        <td> Row 2 Column 3</td>
+        <td> Row 2 Column 4</td>
+        <td> Row 2 Column 5</td>
+        <td>
+            <button type="button" class="addButton2" onclick="addRow('type2')">Button 2</button>
+        </td>
+    </tr>
+    <tr class="type3">
+        <td>
+            <button type="button" onclick="removeRow('.type3')">Button 3</button>
+        </td>
+        <td> Row 3 Column 1</td>
+        <td> Row 3 Column 2</td>
+        <td> Row 3 Column 3</td>
+        <td> Row 3 Column 4</td>
+        <td> Row 3 Column 5</td>
+        <td>
+            <button type="button" class="addButton3" onclick="addRow('type3')">Button 3</button>
+        </td>
+    </tr>
+    <tr class="type4">
+        <td>
+            <button type="button" onclick="removeRow('.type4')">Button 4</button>
+        </td>
+        <td> Row 4 Column 1</td>
+        <td> Row 4 Column 2</td>
+        <td> Row 4 Column 3</td>
+        <td> Row 4 Column 4</td>
+        <td> Row 4 Column 5</td>
+        <td>
+            <button type="button" class="addButton4" onclick="addRow('type4')">Button 4</button>
+        </td>
+    </tr>
+    <tr class="type5">
+        <td>
+            <button type="button" onclick="removeRow('.type5')">Button 5</button>
+        </td>
+        <td> Row 5 Column 1</td>
+        <td> Row 5 Column 2</td>
+        <td> Row 5 Column 3</td>
+        <td> Row 5 Column 4</td>
+        <td> Row 5 Column 5</td>
+        <td>
+            <button type="button" class="addButton5"  onclick="addRow('type5')">Button 5</button>
+        </td>
+    </tr>
+</table>
+</body>
+<script>
+    var nr = 5;
+
+    function removeRow(param) {
+        console.log("yuhuu");
+        $(param).remove();
+    }
+
+    function addRow(prm) {
+        nr++;
+        let nrStr=""+nr;
+        let className = 'type' + nr;
+        let param = '\'.type' + nr + '\'';
+
+        $('table .'+prm).after('<tr class="' +
+            className + '">\n' +
+            '        <td>\n' +
+            '            <button type="button" onclick="removeRow(\'.' +
+            className +
+            '\')">Button '+
+            nrStr+'</button>\n' +
+            '        </td>\n' +
+            '        <td><input type="text"></td>\n' +
+            '        <td><input type="text"></td>\n' +
+            '        <td><input type="text"></td>\n' +
+            '        <td> <input type="text"></td>\n' +
+            '        <td> <input type="text"></td>\n' +
+            '        <td>\n' +
+            '            <button type="button" class="addButton5" onclick="addRow(\''+
+            className+'\')">Button '+
+            nrStr+'</button>\n' +
+            '        </td>\n' +
+            '    </tr>');
+    }
+</script>
+</html>
