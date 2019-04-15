@@ -82,15 +82,25 @@
 
 </body>
 <script>
-    var map={};
+    var map = {};
     function f(param) {
-        var mainElem=param+'5';
-        if ($(mainElem).length && $(mainElem).val().length) {
+        if ($(param).length && $(param).val().length) {
             console.log("YASSS!");
-            var name;
-            for (var i=1;i<6;i++){
-                name=param+i;
-                $(name).attr("disabled", "disabled");
+            map[param]= 1;
+            var ok = 0;
+            var name = param.substr(0, param.length - 1);
+            var current = "";
+            for (var i = 1; i < 6; i++) {
+                current = name + i;
+                if (!(map[current]==1)) {
+                    ok = 1;
+                }
+            }
+            if (ok==0) {
+                for (var j = 1; j < 6; j++) {
+                    param = name + j;
+                    $(param).attr("disabled", "disabled");
+                }
             }
         }
     }
@@ -116,11 +126,11 @@
             '\')">Button ' +
             nrStr + '</button>\n' +
             '        </td>\n' +
-            '        <td><input type="text" class="input' + nr + 1 + '"></td>\n' +
-            '        <td><input type="text" class="input' + nr + 2 + '" ></td>\n' +
-            '        <td><input type="text" class="input' + nr + 3 + '"  ></td>\n' +
-            '        <td> <input type="text" class="input' + nr + 4 + '"></td>\n' +
-            '        <td> <input type="text" class="input' + nr + 5 + '" onchange="f(\'table .input' + nr + '\')"></td>\n' +
+            '        <td><input type="text" class="input' + nr + 1 + '" onchange="f(\'table .input' + nr + '1\')"></td>\n' +
+            '        <td><input type="text" class="input' + nr + 2 + '" onchange="f(\'table .input' + nr + '2\')"></td>\n' +
+            '        <td><input type="text" class="input' + nr + 3 + '" onchange="f(\'table .input' + nr + '3\')"></td>\n' +
+            '        <td> <input type="text" class="input' + nr + 4 + '" onchange="f(\'table .input' + nr + '4\')"></td>\n' +
+            '        <td> <input type="text" class="input' + nr + 5 + '" onchange="f(\'table .input' + nr + '5\')"></td>\n' +
             '        <td>\n' +
             '            <button type="button" class="addButton5" onclick="addRow(\'' +
             className + '\')">Button ' +
