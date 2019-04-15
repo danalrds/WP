@@ -11,7 +11,7 @@
     </style>
 </head>
 <body>
-<h1>Learning</h1>
+<h1>Jquery</h1>
 <table style=" border: black solid 2px">
     <tr class="type1">
         <td>
@@ -75,12 +75,26 @@
         <td> Row 5 Column 4</td>
         <td> Row 5 Column 5</td>
         <td>
-            <button type="button" class="addButton5"  onclick="addRow('type5')">Button 5</button>
+            <button type="button" class="addButton5" onclick="addRow('type5')">Button 5</button>
         </td>
     </tr>
 </table>
+
 </body>
 <script>
+    var map={};
+    function f(param) {
+        var mainElem=param+'5';
+        if ($(mainElem).length && $(mainElem).val().length) {
+            console.log("YASSS!");
+            var name;
+            for (var i=1;i<6;i++){
+                name=param+i;
+                $(name).attr("disabled", "disabled");
+            }
+        }
+    }
+
     var nr = 5;
 
     function removeRow(param) {
@@ -90,27 +104,27 @@
 
     function addRow(prm) {
         nr++;
-        let nrStr=""+nr;
+        let nrStr = "" + nr;
         let className = 'type' + nr;
         let param = '\'.type' + nr + '\'';
 
-        $('table .'+prm).after('<tr class="' +
+        $('table .' + prm).after('<tr class="' +
             className + '">\n' +
             '        <td>\n' +
             '            <button type="button" onclick="removeRow(\'.' +
             className +
-            '\')">Button '+
-            nrStr+'</button>\n' +
+            '\')">Button ' +
+            nrStr + '</button>\n' +
             '        </td>\n' +
-            '        <td><input type="text"></td>\n' +
-            '        <td><input type="text"></td>\n' +
-            '        <td><input type="text"></td>\n' +
-            '        <td> <input type="text"></td>\n' +
-            '        <td> <input type="text"></td>\n' +
+            '        <td><input type="text" class="input' + nr + 1 + '"></td>\n' +
+            '        <td><input type="text" class="input' + nr + 2 + '" ></td>\n' +
+            '        <td><input type="text" class="input' + nr + 3 + '"  ></td>\n' +
+            '        <td> <input type="text" class="input' + nr + 4 + '"></td>\n' +
+            '        <td> <input type="text" class="input' + nr + 5 + '" onchange="f(\'table .input' + nr + '\')"></td>\n' +
             '        <td>\n' +
-            '            <button type="button" class="addButton5" onclick="addRow(\''+
-            className+'\')">Button '+
-            nrStr+'</button>\n' +
+            '            <button type="button" class="addButton5" onclick="addRow(\'' +
+            className + '\')">Button ' +
+            nrStr + '</button>\n' +
             '        </td>\n' +
             '    </tr>');
     }
