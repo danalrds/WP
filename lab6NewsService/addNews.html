@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Add news</title>
+        </head>
+<body>
+
+<form id="addNews" action="addNews.php" method="post">
+
+
+    <label>Title: </label>
+    <input type="text" id="addTitle" name="title"/><br><br>
+    <label>Text: </label>
+    <input type="text" id="addText" name="text"/><br>
+    <br>
+    <select name="selectedCategory">
+        <option value="politics">politics</option>
+        <option value="society">society</option>
+        <option value="health">health</option>
+    </select>
+    <button id="addButton" type="submit">Add News</button>
+</form>
+
+
+</body>
+</html>
