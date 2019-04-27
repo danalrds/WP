@@ -53,5 +53,9 @@ namespace Lab8ASP
             Session.Clear();
             Response.Redirect("index.aspx");
         }
+        protected void addButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("addNews.aspx");
+        }
     }
 }
