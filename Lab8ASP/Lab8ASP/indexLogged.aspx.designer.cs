@@ -22,6 +22,15 @@ namespace Lab8ASP {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// placeHolder1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder placeHolder1;
+        
+        /// <summary>
         /// logoutButton control.
         /// </summary>
         /// <remarks>
