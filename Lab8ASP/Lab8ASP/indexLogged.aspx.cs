@@ -35,7 +35,7 @@ namespace Lab8ASP
                     table.Append("<tr>");
                     table.Append("<td>" + reader[0] + "</td>");
                     table.Append("<td>" + reader[1] + "</td>");
-                    table.Append("<td>" + reader[2] + "</td>");
+                    table.Append("<td>" + ((DateTime)reader[2]).ToString("yyyy-MM-dd") + "</td>");
                     table.Append("<td>" + reader[3] + "</td>");
                     table.Append("<td>" + reader[4] + "</td>");
                     table.Append("</tr>");

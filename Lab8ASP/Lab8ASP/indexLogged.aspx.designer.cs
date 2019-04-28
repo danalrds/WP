@@ -31,15 +31,6 @@ namespace Lab8ASP {
         protected global::System.Web.UI.WebControls.PlaceHolder placeHolder1;
         
         /// <summary>
-        /// logoutButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button logoutButton;
-        
-        /// <summary>
         /// addButton control.
         /// </summary>
         /// <remarks>
@@ -47,5 +38,14 @@ namespace Lab8ASP {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button addButton;
+        
+        /// <summary>
+        /// logoutButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button logoutButton;
     }
 }

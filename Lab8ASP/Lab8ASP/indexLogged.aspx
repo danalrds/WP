@@ -13,10 +13,10 @@
             <asp:PlaceHolder ID="placeHolder1" runat="server"></asp:PlaceHolder>
         </div>
          <p>           
-             <asp:Button ID="logoutButton" runat="server" Text="Logout" OnClick="logoutButton_Click"/>           
+             <asp:Button ID="addButton" runat="server" Text="Add news" OnClick="addButton_Click"/>           
         </p>
          <p>           
-             <asp:Button ID="addButton" runat="server" Text="Add news" OnClick="addButton_Click"/>           
+             <asp:Button ID="logoutButton" runat="server" Text="Logout" OnClick="logoutButton_Click"/>           
         </p>
         
     </form>
