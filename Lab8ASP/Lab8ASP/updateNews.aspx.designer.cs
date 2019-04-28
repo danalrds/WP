@@ -10,7 +10,7 @@
 namespace Lab8ASP {
     
     
-    public partial class indexlogged {
+    public partial class updateNews {
         
         /// <summary>
         /// form1 control.
@@ -22,39 +22,30 @@ namespace Lab8ASP {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// placeHolder1 control.
+        /// title control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder placeHolder1;
+        protected global::System.Web.UI.WebControls.TextBox title;
         
         /// <summary>
-        /// addButton control.
+        /// text control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button addButton;
+        protected global::System.Web.UI.WebControls.TextBox text;
         
         /// <summary>
-        /// updateButton control.
+        /// updateNewsButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button updateButton;
-        
-        /// <summary>
-        /// logoutButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button logoutButton;
+        protected global::System.Web.UI.WebControls.Button updateNewsButton;
     }
 }

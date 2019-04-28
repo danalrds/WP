@@ -57,5 +57,9 @@ namespace Lab8ASP
         {
             Response.Redirect("addNews.aspx");
         }
+        protected void updateButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("updateNews.aspx");
+        }
     }
 }
