@@ -8,15 +8,18 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <br/>
+        <br />
         <asp:DropDownList runat="server" ID="dropDownListIndex">
-            <asp:ListItem Text="all" Value="all"></asp:ListItem>   
-            <asp:ListItem Text="politics" Value="politics"></asp:ListItem>                      
+            <asp:ListItem Text="all" Value="all"></asp:ListItem>
+            <asp:ListItem Text="politics" Value="politics"></asp:ListItem>
             <asp:ListItem Text="society" Value="society"></asp:ListItem>
             <asp:ListItem Text="health" Value="health"></asp:ListItem>
         </asp:DropDownList>
+        <asp:TextBox ID="startDate" runat="server"></asp:TextBox>
+        <asp:TextBox ID="endDate" runat="server"></asp:TextBox>
         <asp:Button ID="filterButton" runat="server" Text="Filter" OnClick="filterButton_Click" />
-        <br/><br/>
+        <br />
+        <br />
         <div>
             <asp:PlaceHolder ID="placeHolder1" runat="server"></asp:PlaceHolder>
         </div>

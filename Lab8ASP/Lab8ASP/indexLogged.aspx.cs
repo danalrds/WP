@@ -21,6 +21,17 @@ namespace Lab8ASP
                 Response.Redirect("index.aspx");
             }
             String category = Request.QueryString["category"];
+            String startDate = "";
+            String endDate = "";
+            if (Request.QueryString["startDate"] != null)
+            {
+                startDate = Request.QueryString["startDate"];
+
+            }
+            if (Request.QueryString["endDate"] != null)
+            {
+                endDate = Request.QueryString["endDate"];
+            }
             String sql = "";
             conn.Open();
             if (category == null)
@@ -29,14 +40,34 @@ namespace Lab8ASP
             }
             if (category.Equals("all"))
             {
-                sql = "SELECT n.title, n.text, n.date, u.username, c.cname FROM news n INNER JOIN users u ON n.producer=u.id INNER JOIN  categories c ON c.id=n.cid;";
+                if ((startDate != "") && (endDate != ""))
+                {
+                    sql = "SELECT n.title, n.text, n.date, u.username, c.cname FROM news n INNER JOIN users u ON n.producer=u.id INNER JOIN  categories c " +
+                        "ON c.id=n.cid WHERE n.date BETWEEN '" + startDate + "' AND '" + endDate + "';";
 
+                }
+                else
+                {
+                    sql = "SELECT n.title, n.text, n.date, u.username, c.cname FROM news n INNER JOIN users u ON n.producer=u.id INNER JOIN  categories c ON c.id=n.cid;";
+
+                }
             }
             else
             {
-                sql = "SELECT n.title, n.text, n.date, u.username, c.cname FROM news n INNER JOIN users u ON n.producer=u.id INNER JOIN  categories c ON c.id=n.cid" +
+                if ((startDate != "") && (endDate != ""))
+                {
+                    sql = "SELECT n.title, n.text, n.date, u.username, c.cname FROM news n INNER JOIN users u ON n.producer=u.id INNER JOIN  categories c ON c.id=n.cid" +
+                   " WHERE c.cname='" + category + "' AND n.date BETWEEN '" + startDate + "' AND '" + endDate + "';";
+
+
+                }
+                else
+                {
+                    sql = "SELECT n.title, n.text, n.date, u.username, c.cname FROM news n INNER JOIN users u ON n.producer=u.id INNER JOIN  categories c ON c.id=n.cid" +
                     " WHERE c.cname='" + category + "';";
+                }
             }
+
             MySqlCommand cmd = new MySqlCommand();
             cmd.CommandText = sql;
             cmd.Connection = conn;
@@ -79,7 +110,7 @@ namespace Lab8ASP
         }
         protected void filterButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("indexLogged.aspx?category=" + dropDownListIndex.SelectedValue);
+            Response.Redirect("indexLogged.aspx?category=" + dropDownListIndex.SelectedValue + "&startDate=" + startDate.Text + "&endDate=" + endDate.Text);
         }
     }
 }
