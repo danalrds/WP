@@ -20,8 +20,23 @@ namespace Lab8ASP
             {
                 Response.Redirect("index.aspx");
             }
+            String category = Request.QueryString["category"];
+            String sql = "";
             conn.Open();
-            String sql = "SELECT n.title, n.text, n.date, u.username, c.cname FROM news n INNER JOIN users u ON n.producer=u.id INNER JOIN  categories c ON c.id=n.cid;";
+            if (category == null)
+            {
+                category = "all";
+            }
+            if (category.Equals("all"))
+            {
+                sql = "SELECT n.title, n.text, n.date, u.username, c.cname FROM news n INNER JOIN users u ON n.producer=u.id INNER JOIN  categories c ON c.id=n.cid;";
+
+            }
+            else
+            {
+                sql = "SELECT n.title, n.text, n.date, u.username, c.cname FROM news n INNER JOIN users u ON n.producer=u.id INNER JOIN  categories c ON c.id=n.cid" +
+                    " WHERE c.cname='" + category + "';";
+            }
             MySqlCommand cmd = new MySqlCommand();
             cmd.CommandText = sql;
             cmd.Connection = conn;
@@ -42,6 +57,7 @@ namespace Lab8ASP
                 }
             }
             table.Append("</table>");
+            placeHolder1.Controls.Clear();
             placeHolder1.Controls.Add(new Literal { Text = table.ToString() });
             reader.Close();
             conn.Close();
@@ -60,6 +76,10 @@ namespace Lab8ASP
         protected void updateButton_Click(object sender, EventArgs e)
         {
             Response.Redirect("updateNews.aspx");
+        }
+        protected void filterButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("indexLogged.aspx?category=" + dropDownListIndex.SelectedValue);
         }
     }
 }

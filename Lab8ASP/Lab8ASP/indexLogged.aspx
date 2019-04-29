@@ -8,20 +8,29 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <br/>
+        <asp:DropDownList runat="server" ID="dropDownListIndex">
+            <asp:ListItem Text="all" Value="all"></asp:ListItem>   
+            <asp:ListItem Text="politics" Value="politics"></asp:ListItem>                      
+            <asp:ListItem Text="society" Value="society"></asp:ListItem>
+            <asp:ListItem Text="health" Value="health"></asp:ListItem>
+        </asp:DropDownList>
+        <asp:Button ID="filterButton" runat="server" Text="Filter" OnClick="filterButton_Click" />
+        <br/><br/>
         <div>
-            <h1>You are logged in</h1>
             <asp:PlaceHolder ID="placeHolder1" runat="server"></asp:PlaceHolder>
         </div>
-         <p>           
-             <asp:Button ID="addButton" runat="server" Text="Add news" OnClick="addButton_Click"/>           
+        <p>
+            <asp:Button ID="addButton" runat="server" Text="Add news" OnClick="addButton_Click" />
         </p>
-        <p>           
-             <asp:Button ID="updateButton" runat="server" Text="Update news" OnClick="updateButton_Click"/>           
+        <p>
+            <asp:Button ID="updateButton" runat="server" Text="Update news" OnClick="updateButton_Click" />
         </p>
-         <p>           
-             <asp:Button ID="logoutButton" runat="server" Text="Logout" OnClick="logoutButton_Click"/>           
+
+        <p>
+            <asp:Button ID="logoutButton" runat="server" Text="Logout" OnClick="logoutButton_Click" />
         </p>
-        
+
     </form>
 </body>
 </html>
