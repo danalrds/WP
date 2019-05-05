@@ -1,6 +1,7 @@
 <%@ page import="utils.DBUtil" %>
 <%@ page import="utils.Photo" %>
-<%@ page import="java.util.List" %><%--
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.SortedMap" %><%--
   Created by IntelliJ IDEA.
   User: diago
   Date: 4/26/2019
@@ -18,12 +19,12 @@
     <button type='submit' name="addPhoto">Add Photo</button>
 </form>
 <form method='post' action='top.jsp'>
-    <input type="text" name="topNumber">
+    <input type="text" name="topNumber" required>
     <button type='submit' name="top">Top</button>
 </form>
 <%
-    Integer topNumber = Integer.valueOf(request.getParameter("topNumber"));
     DBUtil db = new DBUtil();
+    Integer topNumber = Integer.valueOf(request.getParameter("topNumber"));
     List<Photo> photos = db.findTop(topNumber);
     for (Photo p : photos) { %>
 <tr>

@@ -23,6 +23,16 @@ public class DBUtil {
         }
     }
 
+    public Integer getNumberOfPhotos() throws SQLException {
+        String sql = "SELECT COUNT(*) as counter FROM photos";
+        PreparedStatement ps = conn.prepareStatement(sql);
+        ResultSet rs = ps.executeQuery();
+        if (rs.next()) {
+            return rs.getInt("counter");
+        }
+        throw new RuntimeException("Error at select count(*)");
+    }
+
     public void addPhoto(String path, String username) throws Exception {
         Integer userId = getIdOfUser(username);
         String sql = "INSERT INTO photos(path,userid,votes) VALUES (?,?,0)";
@@ -72,10 +82,13 @@ public class DBUtil {
 
     public boolean findUser(String username, String password) {
         ResultSet rs;
-        String result = "error";
         System.out.println(username + " " + password);
         try {
-            rs = stmt.executeQuery("select * from users where username='" + username + "' and password='" + password + "'");
+            String sql = "select * from users where username=? and password=?";
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1, username);
+            ps.setString(2, password);
+            rs = ps.executeQuery();
             if (rs.next()) {
                 rs.close();
                 return true;
@@ -104,6 +117,7 @@ public class DBUtil {
         }
         return photos;
     }
+
 
     public List<Photo> findTop(Integer topNumber) {
         List<Photo> photos = new ArrayList<Photo>();

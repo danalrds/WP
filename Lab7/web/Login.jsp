@@ -13,9 +13,9 @@
 <body>
 <form method="post" action="LoginCheck">
     <h4>Username:</h4>
-    <input type="text" name="username">
+    <input type="text" name="username" required>
     <h4>Password:</h4>
-    <input type="password" name="password"><br><br>
+    <input type="password" name="password" required><br><br>
     <button type="submit" name="login">Login</button>
 </form>
 </body>

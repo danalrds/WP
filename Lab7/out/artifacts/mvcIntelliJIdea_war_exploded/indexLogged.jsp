@@ -19,7 +19,7 @@
     <button type='submit' name="addPhoto">Add Photo</button>
 </form>
 <form method='post' action='top.jsp'>
-    <input type="text" name="topNumber">
+    <input type="text" name="topNumber" required>
     <button type='submit' name="top">Top</button>
 </form>
 

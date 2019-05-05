@@ -13,7 +13,7 @@
 <body>
 <form method="post" action="addPhoto">
     <h4>Path:</h4>
-    <input type="text" name="path">
+    <input type="text" name="path" required>
     <input type="hidden" name="username" value="<%=session.getAttribute("currentUser")%>"/>
     <button type="submit" name="add">Upload</button>
 </form>
