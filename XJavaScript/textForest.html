@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+<p class="hate">I hate forest! blah blah blah I hate forest! yeehaa
+</p>
+<p>I hate forest! blah blah blah</p>
+
+<div class="hate">I hate forest! yass yass no no neither or both</div>
+<div class="hate"> another I hate forest! no yass no no neither or both</div>
+
+<div>There is a forest near their house! I hate forest!</div>
+<button type="button" id="button">Delete</button>
+
+
+<script>
+    //var regexp = /I hate forest!/g;
+    //var delLength='I hate forest!'.length;
+
+
+    $('#button').click(function () {
+        let elems = $('.hate');
+        //let elems=document.getElementsByClassName('hate');
+        console.log(elems);
+        for (var i = 0; i < elems.length; i++) {
+            let newContent = elems[i].innerHTML;
+            console.log(elems[i].innerHTML);
+            newContent=newContent.replace('I hate forest!','');
+            elems[i].innerHTML=newContent;
+
+
+            /*while ((match = regexp.exec(elems[i].innerHTML)) != null) {
+                console.log("match found at " + match.index);
+                newContent = newContent.substring(match.index+delLength);
+            }
+            elems[i].innerHTML=newContent;*/
+
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            var currentHeight = 0;
+            var currentlyAt = 0;
+            $("button").click(function () {
+                while (currentHeight < window.innerHeight - 100) {
+                    currentHeight += 100;
+                    $("div").animate({left: '1400px'}, 1000);
+                    //$("div").css({top:currentHeight,left:0});
+                    if (currentHeight < window.innerHeight - 100)
+                        $("div").animate({left: 0, top: currentHeight}, 0);
+                    //currentlyAt=1-currentlyAt;
+                }
+                // $("div").animate({left: '1400px'}, 1000);
+            });
+        });
+
+
+    </script>
+</head>
+<body>
+
+<button>Start Animation</button>
+
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>
