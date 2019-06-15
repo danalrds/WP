@@ -15,8 +15,5 @@
 <form action='Login.jsp' method='post'>
     <button type='submit'>Login</button>
 </form>
-<form action='SignUp.jsp' method='post'>
-    <button type='submit'>Sign up</button>
-</form>
 </body>
 </html>

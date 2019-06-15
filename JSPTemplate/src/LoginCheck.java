@@ -13,10 +13,14 @@ public class LoginCheck extends HttpServlet {
         String userName = request.getParameter("username");
         String password = request.getParameter("password");
         DBUtil dbUtil = new DBUtil();
-        if (dbUtil.findUser(userName, password)) {
+        if (dbUtil.findUser(userName, password)=="creator") {
             request.getSession().setAttribute("username", userName);
             response.sendRedirect("indexLogged.jsp");
-        } else {
+        } else  if (dbUtil.findUser(userName, password)=="reader")  {
+            request.getSession().setAttribute("username", userName);
+            response.sendRedirect("indexReader.jsp");
+        }
+        else{
             response.sendRedirect("index.jsp");
         }
     }

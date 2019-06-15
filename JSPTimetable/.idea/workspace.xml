@@ -7,15 +7,198 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7af945f1-9ff2-486f-9efa-303229a8ee37" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/out/artifacts/mvcIntelliJIdea_war_exploded/indexLogged.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/out/artifacts/mvcIntelliJIdea_war_exploded/indexLogged.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/web/indexLogged.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/web/indexLogged.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8ASP/.vs/Lab8ASP/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8ASP/.vs/Lab8ASP/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8ASP/.vs/Lab8ASP/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8ASP/.vs/Lab8ASP/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8ASP/Lab8ASP/bin/Lab8ASP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8ASP/Lab8ASP/bin/Lab8ASP.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8ASP/Lab8ASP/bin/Lab8ASP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8ASP/Lab8ASP/bin/Lab8ASP.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8ASP/Lab8ASP/obj/Debug/Lab8ASP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8ASP/Lab8ASP/obj/Debug/Lab8ASP.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8ASP/Lab8ASP/obj/Debug/Lab8ASP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8ASP/Lab8ASP/obj/Debug/Lab8ASP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASPUrls/.vs/TemplateASP/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../ASPUrls/.vs/TemplateASP/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASPUrls/.vs/TemplateASP/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../ASPUrls/.vs/TemplateASP/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASPUrls/.vs/TemplateASP/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../ASPUrls/.vs/TemplateASP/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASPUrls/.vs/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/../ASPUrls/.vs/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASPUrls/TemplateASP/obj/Debug/TemplateASP.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ASPUrls/TemplateASP/obj/Debug/TemplateASP.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASPUrls/TemplateASP/obj/Debug/TemplateASP.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ASPUrls/TemplateASP/obj/Debug/TemplateASP.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/.vs/TemplateASP/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/.vs/TemplateASP/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/.vs/TemplateASP/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/.vs/TemplateASP/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/.vs/TemplateASP/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/.vs/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/TemplateASP.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/TemplateASP.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/Web.Debug.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/Web.Release.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/MySql.Data.DLL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/TemplateASP.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/TemplateASP.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/TemplateASP.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.CSharp.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.Managed.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/Microsoft.VisualBasic.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Console.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.IO.Pipes.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.IO.Pipes.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Security.Claims.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Text.Encoding.CodePages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Xml.ReaderWriter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Xml.XPath.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/System.Xml.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/VBCSCompiler.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/VBCSCompiler.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/csc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/csc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/csc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/csi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/csi.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/csi.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/vbc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/vbc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/bin/roslyn/vbc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/index.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/index.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/index.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/indexAfter.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/indexAfter.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/indexAfter.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/TemplateASP.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/TemplateASP.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/TemplateASP.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/TemplateASP.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/TemplateASP.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/TemplateASP.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/rezerveConference.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/rezerveConference.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/rezerveConference.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/rezerveFlight.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/rezerveFlight.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/rezerveFlight.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/rezerveHotel.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/rezerveHotel.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/rezerveHotel.aspx.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/TemplateASP/utils/DbUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/app.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/app.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/web.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/web.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/app.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/app.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/web.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/web.config.uninstall.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.CSharp.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.DiaSymReader.Native.amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.DiaSymReader.Native.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.VisualBasic.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/VBCSCompiler.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/VBCSCompiler.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csi.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/vbc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/vbc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/vbc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.CSharp.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.DiaSymReader.Native.amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.DiaSymReader.Native.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.Managed.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.VisualBasic.Core.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Console.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.IO.Pipes.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.IO.Pipes.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Security.Claims.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Text.Encoding.CodePages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Xml.ReaderWriter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Xml.XPath.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/System.Xml.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/VBCSCompiler.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/VBCSCompiler.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csi.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csi.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/vbc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/vbc.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/vbc.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/net45/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlightsASP/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/net45/uninstall.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPDocuments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPDocuments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPDocuments/out/artifacts/mvcIntelliJIdea_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPDocuments/out/artifacts/mvcIntelliJIdea_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="mvcIntelliJIdea.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,53 +371,66 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-275483070">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+          <entry key="jsp" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+          <entry key="JSP" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="mvcIntelliJIdea" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/AddRestriction.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/AddCourse.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AddCourse.java">
+        <entry file="file://$PROJECT_DIR$/src/AddInTimetable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="54" />
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AddRestriction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utils/DBUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="144" column="16" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
+            <state relative-caret-position="96">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -243,19 +439,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FillCourses.java">
+        <entry file="file://$PROJECT_DIR$/src/SelectPossibilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="102">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SelectPossibilities.java">
+        <entry file="file://$PROJECT_DIR$/src/ShowTimeTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="340">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -432,34 +628,34 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="mvcIntelliJIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timetable" type="462c0819:PsiDirectoryNode" />
+              <item name="JSPTimetable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mvcIntelliJIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timetable" type="462c0819:PsiDirectoryNode" />
+              <item name="JSPTimetable" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mvcIntelliJIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timetable" type="462c0819:PsiDirectoryNode" />
+              <item name="JSPTimetable" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mvcIntelliJIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timetable" type="462c0819:PsiDirectoryNode" />
+              <item name="JSPTimetable" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,8 +669,8 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560274976257" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560430816679" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JSPDocuments" />
     <property name="options.lastSelected" value="web.server" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -775,11 +971,13 @@
       <workItem from="1560227156666" duration="8926000" />
       <workItem from="1560244967201" duration="12000" />
       <workItem from="1560259131289" duration="11826000" />
+      <workItem from="1560415074315" duration="6782000" />
+      <workItem from="1560450273045" duration="236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56956000" />
+    <option name="totallyTimeSpent" value="63974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -787,9 +985,9 @@
       <window_info id="UI Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Image Layers" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.69078016" visible="true" weight="0.21073826" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.6865248" visible="true" weight="0.21610738" />
       <window_info id="Structure" order="4" weight="0.25" />
-      <window_info active="true" id="Web" order="5" sideWeight="0.30921987" side_tool="true" visible="true" weight="0.21073826" />
+      <window_info id="Web" order="5" sideWeight="0.3134752" side_tool="true" visible="true" weight="0.21610738" />
       <window_info id="Palette&#9;" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
@@ -879,54 +1077,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoginCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/indexLogged.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SignUp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SignUp.java" />
+    <entry file="file://$PROJECT_DIR$/src/LoginCheck.java" />
+    <entry file="file://$PROJECT_DIR$/src/Logout.java" />
+    <entry file="file://$PROJECT_DIR$/web/indexLogged.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/Login.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/SignUp.jsp" />
     <entry file="file://$PROJECT_DIR$/web/jquery.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -981,76 +1137,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddCourse.java">
+    <entry file="file://$PROJECT_DIR$/web/AddRestriction.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/DBUtil.java">
+    <entry file="file://$PROJECT_DIR$/web/AddCourse.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="144" column="16" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FillCourses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SelectPossibilities.java">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="1292">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/AddRestriction.jsp">
+    <entry file="file://$PROJECT_DIR$/src/AddInTimetable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/AddCourse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="221">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AddRestriction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddInTimetable.java">
+    <entry file="file://$PROJECT_DIR$/src/SelectPossibilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="102">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ShowTimeTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="340">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/utils/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+        <state relative-caret-position="96">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

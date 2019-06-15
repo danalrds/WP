@@ -32,7 +32,6 @@
 
 <script>
     $("#searchButton").click(function () {
-        console.log('Yuhuu it is called!');
         $.post('SearchDocument', {'word': $('#word').val()}, function (data) {
             $("#result").html(' <tr>\n' +
                 '        <th>Name</th>\n' +
